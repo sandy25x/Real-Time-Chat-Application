@@ -48,9 +48,9 @@ node server.js
 - Click the Logout button (top right) to leave the chat and allow new users to join
 
 ## 📸 Screenshots
-![Image 1](Screenshot 2025-04-13 205128.png)
-![Image 2](Screenshot 2025-04-13 205213.png)
-![Image 3](Screenshot 2025-04-13 205431.png)
+![Image 1](https://github.com/sandy25x/Real-Time-Chat-Application/blob/main/Screenshot%202025-04-13%20205128.png)
+![Image 2](https://github.com/sandy25x/Real-Time-Chat-Application/blob/main/Screenshot%202025-04-13%20205213.png)
+![Image 3](https://github.com/sandy25x/Real-Time-Chat-Application/blob/main/Screenshot%202025-04-13%20205431.png)
 
 ## 🧠 Lessons Learned
 - How to build full-stack real-time apps
