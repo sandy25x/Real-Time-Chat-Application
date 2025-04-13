@@ -27,7 +27,7 @@ This app allows multiple users to chat simultaneously with features like typing 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/realtime-chat-app.git
+[git clone https://github.com/sandy25x/Real-Time-Chat-Application.git]
 
 # Navigate into the project folder
 cd realtime-chat-app
