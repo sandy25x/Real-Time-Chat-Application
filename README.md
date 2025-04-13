@@ -38,7 +38,7 @@ npm install express socket.io
 # Start the server
 node server.js
 ```
-##💡 How to Use
+## 💡 How to Use
 - Open the app in a browser (http://localhost:3000)
 
 - Enter an alphanumeric username to join the chat
@@ -47,12 +47,12 @@ node server.js
 
 - Click the Logout button (top right) to leave the chat and allow new users to join
 
-##📸 Screenshots
+## 📸 Screenshots
 ![Image 1](Screenshot 2025-04-13 205128.png)
 ![Image 2](Screenshot 2025-04-13 205213.png)
 ![Image 3](Screenshot 2025-04-13 205431.png)
 
-##🧠 Lessons Learned
+## 🧠 Lessons Learned
 - How to build full-stack real-time apps
 
 - Working with Socket.IO for bi-directional communication
@@ -61,10 +61,10 @@ node server.js
 
 - Enhancing user experience using audio, animations, and intuitive feedback
 
-##📄 License
+## 📄 License
 - This project is open-source and available under the MIT License.
 
-##👤 Author
+## 👤 Author
 - Sandeep Jagan
 - GitHub: @sandy25x
 - Portfolio: (https://sandy25x.github.io/sandeep-jagan-portfolio/)
