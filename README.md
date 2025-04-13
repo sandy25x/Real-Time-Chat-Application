@@ -33,7 +33,7 @@ git clone https://github.com/your-username/realtime-chat-app.git
 cd realtime-chat-app
 
 # Install dependencies
-npm install
+npm install express socket.io 
 
 # Start the server
 node server.js
