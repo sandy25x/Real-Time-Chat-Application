@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animalistic Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hidden {
+      display: none !important;
+    }
+  </style>
+  <audio id="notif-sound" src="notify.mp3" preload="auto"></audio>
+</head>
+<body>
+<!-- Join Screen -->
+
+<!-- Join Screen (Visible First) -->
+<div id="join-screen" class="screen">
+  <div class="join-container">
+    <h2>Join the Jungle 🐾</h2>
+    <input type="text" id="username" placeholder="Enter your wild name" />
+    <button id="join-btn">Join Chat</button>
+    <p id="error-message" style="color: red; display: none;">Please enter a valid alphanumeric username.</p>
+  </div>
+</div>
+
+<!-- Chat Screen (Initially Hidden) -->
+<div id="chat-screen" class="screen hidden">
+  <div class="top-bar">
+    <div id="chat-header"></div>
+    <div class="logout-bar">
+      <div id="chat-header"></div>
+      <button id="logout-btn" class="logout-btn hidden">🚪 Logout</button>
+    </div>
+  </div>
+
+  <div id="chat-box"></div>
+
+  <div class="chat-input-container">
+    <input type="text" id="message-input" placeholder="Type your message..." />
+    <button id="send-btn">Send</button>
+  </div>
+  
+  <div id="typing-indicator" class="hidden"></div>
+</div>
+
+
+  <!-- Scripts -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
