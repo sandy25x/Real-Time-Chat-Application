@@ -36,7 +36,7 @@ cd realtime-chat-app
 npm install
 
 # Start the server
-node index.js
+node server.js
 ```
 ##💡 How to Use
 - Open the app in a browser (http://localhost:3000)
